@@ -16,7 +16,7 @@ export default function page() {
                             {/* <!-- Reposnive bar open and close --> */}
                             <i className="fa fa-times" ></i>
                             <ul>
-                                <li><Link href={"/course"}>Home</Link></li>
+                                <li><Link href={"/"}>Home</Link></li>
                                 <li><Link href="/course">Course</Link></li>
                                 <li><Link href={"/blog"}>Blog</Link></li>
                                 <li><Link href={"/about"}>About</Link></li>

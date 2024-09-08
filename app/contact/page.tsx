@@ -1,29 +1,39 @@
-import React from 'react'
+import React from "react";
+import Link from "next/link";
 
 export default function Contact() {
   return (
     <div>
       <section className="Sub-header">
         <nav>
-          <a href="index.html" className="logo">Xplore
+          <a href="index.html" className="logo">
+            Xplore
             <i className="fab fa-staylinked"></i>kill
           </a>
           <div className="nav-links" id="navLinks">
-
             {/* <!-- reposnive bar open and close --> */}
-            <i className="fa fa-times" ></i>
+            <i className="fa fa-times"></i>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="course.html">Course</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li>
+                <Link href={"/"}>Home</Link>
+              </li>
+              <li>
+                <Link href="/course">Course</Link>
+              </li>
+              <li>
+                <Link href={"/blog"}>Blog</Link>
+              </li>
+              <li>
+                <Link href={"/about"}>About</Link>
+              </li>
+              <li>
+                <Link href={"/contact"}>Contact</Link>
+              </li>
             </ul>
           </div>
           <i className="fa fa-bars"></i>
 
           {/* <!-- reposnive bar open and close --> */}
-
         </nav>
         <h1>Contact Us</h1>
       </section>
@@ -33,7 +43,10 @@ export default function Contact() {
       <section className="loacation">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111989.31313237658!2d77.32498792347556!3d28.699635117457326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1bb41c50fdf%3A0xe6f06fd26a7798ba!2sGhaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1630495771496!5m2!1sen!2sin"
-          width="600" height="450" loading="lazy"></iframe>
+          width="600"
+          height="450"
+          loading="lazy"
+        ></iframe>
       </section>
 
       <section className="contact-us">
@@ -67,7 +80,9 @@ export default function Contact() {
               <input type="email" placeholder="Enter Email" required />
               <input type="text" placeholder="Enter Subject" required />
               <textarea placeholder="Message" required></textarea>
-              <button type="submit" className="hero_btn btn">Send Message</button>
+              <button type="submit" className="hero_btn btn">
+                Send Message
+              </button>
             </form>
           </div>
         </div>
@@ -75,6 +90,5 @@ export default function Contact() {
 
       {/* <!-- Contact Us Section End --> */}
     </div>
-      
-        )
+  );
 }
