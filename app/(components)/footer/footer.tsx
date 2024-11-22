@@ -12,7 +12,7 @@ export default function Footer() {
         </p>
 
         <div className="icons">
-          {/* <i className="fab fa-facebook-f"></i> */}
+          <i className="fab fa-facebook-f"></i>
           <i className="fab fa-instagram"></i>
           <i className="fab fa-twitter"></i>
           <i className="fab fa-linkedin"></i>
