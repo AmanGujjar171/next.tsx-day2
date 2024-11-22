@@ -42,7 +42,7 @@ export default function About() {
       <section className="about-us">
         <div className="row">
           <div className="about-col">
-            <h1>We are the world's largest University</h1>
+            <h1>We are the world&apos;s largest University</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
               cumque in accusantium molestias maiores fuga vitae eos, ducimus
@@ -51,9 +51,7 @@ export default function About() {
               asperiores voluptatum iste animi voluptatem fugiat totam excepturi
               dolor.
             </p>
-            <a className="hero_btn btn">
-              EXPLORE NOW
-            </a>
+            <a className="hero_btn btn">EXPLORE NOW</a>
           </div>
           <div className="about-col">
             <img src="img/about.png" alt="img does not show" />
