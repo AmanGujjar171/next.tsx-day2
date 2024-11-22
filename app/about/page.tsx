@@ -51,7 +51,7 @@ export default function About() {
               asperiores voluptatum iste animi voluptatem fugiat totam excepturi
               dolor.
             </p>
-            <a href="#" className="hero_btn btn">
+            <a className="hero_btn btn">
               EXPLORE NOW
             </a>
           </div>

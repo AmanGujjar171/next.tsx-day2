@@ -72,6 +72,7 @@ nav .fab {
 }
 
 .text_box {
+    border: 1px solid;
     width: 90%;
     color: #fff;
     position: absolute;

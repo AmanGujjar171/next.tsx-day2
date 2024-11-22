@@ -9,7 +9,7 @@ export default function page() {
             <div >
                 <section className="header">
                     <nav>
-                        <a href="index.html" className="logo">Xplore
+                        <a href={"/"} className="logo">Xplore
                             <i className="fab fa-staylinked"></i>kill
                         </a>
                         <div className="nav-links" id="navLinks">
@@ -37,6 +37,10 @@ export default function page() {
                         <a href="#" className="hero_btn">Visit Us To Know More</a>
                     </div>
                 </section>
+
+
+
+
 
                 {/* <!-- Course Section Start --> */}
                 <section className="course">
