@@ -15,7 +15,7 @@ export default function Navbar() {
                     {/* <!-- Reposnive bar open and close --> */}
                     <i className="fa fa-times"></i>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><Link href={"/course"}>Course</Link></li>
                         <li><Link href={"/blog"}>Blog</Link></li>
                         <li><Link href={"/about"}>About</Link></li>
